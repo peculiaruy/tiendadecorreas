@@ -1,6 +1,7 @@
 //Variable
-$primary-color:#d4e1f0;
-$secundary-color: antiquewhite;
+$primary-color:#22bcc2;
+$secundary-color: rgb(211, 136, 211);
+$font-color: black;
 @import "_menu.scss";
 
 body{
@@ -11,10 +12,9 @@ body{
     font-family: verdana;
     div {    display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
-
-    }
+        flex-direction: row;}
 }
+
 
 #huevo {
     width: 300px;
@@ -32,8 +32,7 @@ body{
     flex-wrap: wrap;
     border-radius: 6px;
     box-shadow: 0px 15px 25px;
-    /*cursor: pointer  esto seria para que el curson se vuelva manito*/
-        }
+ }
     
     
     .lateralcolumn {
@@ -43,8 +42,7 @@ body{
         border: solid black;
     }
     
-    a{
-        color: black;
+    a{  color: black;
         text-decoration: none;
     }
     a:hover{
@@ -61,12 +59,7 @@ body{
         margin: 0px;
         padding: 0px;
         
-        
-    
-    }
-    
-    
-    .LINKAPRODUCTOS figure {
+         figure {
     
         display: flex;
         position: relative;
@@ -76,32 +69,27 @@ body{
         border-radius: 6px;
         box-shadow: 0px 15px 10px rgba(0,0,0,0.50);
         cursor: pointer;
-        margin-block-start: 0px;
-    }
-    
-    
-    .LINKAPRODUCTOS figure img {
+        margin-block-start: 0px;    
+             img {
     
         width: 300px;
         height:auto;
-        transition: all 500ms ease-out;
-        
+        transition: all 500ms ease-out;   }
+            capa {
     
-    }
+            position: absolute;
+            top: 0 ;
+            width:100%;
+            height: auto;
+            background: rgba (11,103,123,0.6);
+            transition: all 500ms ease-out;
+            opacity: 0;
+            visibility: hidden;
+            text-align: center;
+            align-items: center;
+    }}}
     
-    .LINKAPRODUCTOS figure .capa {
-    
-        position: absolute;
-        top: 0 ;
-        width:100%;
-        height: auto;
-        background: rgba (11,103,123,0.6);
-        transition: all 500ms ease-out;
-        opacity: 0;
-        visibility: hidden;
-        text-align: center;
-        align-items: center;
-    }
+ 
     
     .LINKAPRODUCTOS figure:hover > .capa {
         opacity: 1;
@@ -162,7 +150,7 @@ body{
     * {
         font-family: Anton ;
         font-size: 30px;
-       /* display: grid;*/
+       display: grid;
        /* align-content: center;
         align-items: center;*/
     /*    border: 2px solid black;
@@ -170,8 +158,7 @@ body{
         text-align: center;
         color: rgb(0, 0, 0);
     }
-    */
-    
+       
     
     
     #logo {

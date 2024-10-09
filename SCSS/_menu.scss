@@ -9,17 +9,12 @@
     justify-content: center;
     align-content: space-between 20px;
     div {
-        background-color:  #d4e1f0; /* rgb(84, 150, 128)*/;
+        background-color: $primary-color;
         width: 200px;
         margin: 10px;
         text-align: center;
         font-size: 20px;
         font-family: Anton, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font: black;
-        border: 2px aquamarine solid;
-    
+        border: 2px aquamarine solid;}
     }
-
-}
-
-. 
